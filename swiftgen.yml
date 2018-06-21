@@ -1,0 +1,26 @@
+strings:
+    paths: DemoSwiftGen/Localizable.strings
+    templateName: structured-swift4
+    output: DemoSwiftGen/Generated/DMStrings.swift
+    params:
+        enumName: DMStrings
+xcassets:
+    paths: DemoSwiftGen/Assets.xcassets
+    templateName: swift4
+    output: DemoSwiftGen/Generated/DMAssets.swift
+    params:
+        enumName: DMAssets
+storyboards:
+    paths: DemoSwiftGen/Base.lproj/Main.storyboard
+    templateName: swift4
+    output: DemoSwiftGen/Generated/DMStoryboards.swift
+    params:
+        segueEnumName: DMStoryboardSegues
+        sceneEnumName: DMStoryboardScenes
+fonts:
+    paths:
+        - DemoSwiftGen/Resources/Fonts
+    templateName: swift4
+    output: DemoSwiftGen/Generated/DMFonts.swift
+    params:
+        enumName: DMFonts

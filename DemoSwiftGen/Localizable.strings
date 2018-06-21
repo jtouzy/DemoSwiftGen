@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  DemoSwiftGen
+
+  Created by TOUZY Jérémy (i-BP) on 18/05/2018.
+  Copyright © 2018 jtouzy. All rights reserved.
+*/
+
+"my_title" = "Jenkins";
